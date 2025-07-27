@@ -1,2 +1,9 @@
-# Internet-Radio-Multicasting-multimedia-over-IP
-This project will work as mentioned below.First, Client will send a join request to the server to join the multicast group.After that Server will provide station list, site info to the client through TCP. Then whichever station it selects from the station list, it is connected to that station.All the stations are sending data, irrespective of client is connected or not. This functionality is incorporated to relate more with real life situation, e.g Tv/radio sends data even though there is no receiver connected.Whenever receiver connects to a particular station, it starts receiving live-streaming videos from that station. Receiver can pause, resume, change station or even terminate at any given time from GUI using thread.
+## Internet-Radio-Multicasting-Multimedia-Over-IP
+This project will function as follows:
+
+1. The client will initiate a join request to the server to join the multicast group.
+2. Subsequently, the server will transmit the station list and site information to the client via TCP.
+3. Subsequently, the client will connect to the selected station from the station list.
+4. All stations will transmit data regardless of whether the client is connected or not. This functionality is incorporated to simulate real-life scenarios, such as television or radio broadcasting data even when there is no receiver connected.
+5. When the receiver connects to a particular station, it will begin receiving live-streaming videos from that station.
+6. The receiver can pause, resume, change station, or terminate at any given time from the GUI using a thread.
